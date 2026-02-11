@@ -19,9 +19,9 @@
 adb连接检查
 <img width="1671" height="1241" alt="image" src="https://github.com/user-attachments/assets/f42f909a-67f1-45c7-8e91-f5a813c39ab0" />
 下载手机端frida
-
+<img width="2072" height="1383" alt="image" src="https://github.com/user-attachments/assets/3a0a689b-7750-41c7-964e-03f2081209f5" />
 卸载电脑端frida
-
+<img width="1622" height="1071" alt="image" src="https://github.com/user-attachments/assets/385a3b10-53cc-4290-a0b2-592356331d35" />
 移动frida到手机
 <img width="2087" height="1407" alt="image" src="https://github.com/user-attachments/assets/d13079b6-057c-4030-818c-16c4cc6c5188" />
 frida手机开启服务器，并开启转发
