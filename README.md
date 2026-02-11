@@ -16,7 +16,18 @@
 
 ## 界面预览
 
-![image-20260211203424021](README.assets/image-20260211203424021.png)
+adb连接检查
+<img width="1671" height="1241" alt="image" src="https://github.com/user-attachments/assets/f42f909a-67f1-45c7-8e91-f5a813c39ab0" />
+下载手机端frida
+
+卸载电脑端frida
+
+移动frida到手机
+<img width="2087" height="1407" alt="image" src="https://github.com/user-attachments/assets/d13079b6-057c-4030-818c-16c4cc6c5188" />
+frida手机开启服务器，并开启转发
+<img width="1990" height="1422" alt="image" src="https://github.com/user-attachments/assets/5c261660-7a52-4754-a3cb-c9bc4640cd9b" />
+
+
 
 ## 快速开始
 
@@ -30,6 +41,7 @@
 - Windows 10/11
 - ADB（Android Debug Bridge）已安装并在 PATH 中，或在设置中手动指定路径
 - Python以及Python\Scripts文件夹的环境变量已配置
+- frida服务器手机端已下载（要和电脑的frida版本、安卓版本相对应）
 
 ## 配置说明
 
@@ -56,6 +68,8 @@
 
 **Q: 推送失败，提示 "Local frida-server not found"**
 A: 检查 `Local Server Dir` 和 `Frida Server Name` 是否正确指向本地存在的文件。
+**Q: 端口转发失败**
+A: 检查设备上是否已有 frida-server 占用端口，可尝试手动 `adb kill-server`,或者换另外一个端口
 
 如问题持续请提交 Issue。
 
