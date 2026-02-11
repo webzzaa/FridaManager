@@ -53,7 +53,7 @@ frida手机开启服务器，并开启转发
 | Device Server Path | 设备端推送路径 | /data/local/tmp/fs |
 | Device Port | 设备端端口 | 27042 |
 | Windows Port | Windows 端端口 | 27042 |
-| ADB Path | ADB 可执行文件路径 | adb（不要动它！保持默认值就行） |
+| ADB Path | ADB 可执行文件路径 | adb(默认值启动需要将adb添加到环境变量) |
 | Local Server Dir | 本地 frida-server 所在目录 | 当前目录 |
 
 ## 使用流程
