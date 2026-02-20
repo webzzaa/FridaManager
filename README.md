@@ -70,6 +70,8 @@ frida手机开启服务器，并开启转发
 A: 检查 `Local Server Dir` 和 `Frida Server Name` 是否正确指向本地存在的文件。
 **Q: 端口转发失败**
 A: 检查设备上是否已有 frida-server 占用端口，可尝试手动 `adb kill-server`,或者换另外一个端口
+**Q: 推送frida失败**
+A：尝试下英文路径下推送，中文路径下推送会有bug
 
 如问题持续请提交 Issue。
 
