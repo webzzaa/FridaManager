@@ -67,12 +67,19 @@ frida手机开启服务器，并开启转发
 ## 常见问题
 
 **Q: 推送失败，提示 "Local frida-server not found"**
+
 A: 检查 `Local Server Dir` 和 `Frida Server Name` 是否正确指向本地存在的文件。
+
 **Q: 端口转发失败**
+
 A: 检查设备上是否已有 frida-server 占用端口，可尝试手动 `adb kill-server`,或者换另外一个端口
+
 **Q: 推送frida失败**
+
 A：尝试下英文路径下推送，中文路径下推送会有bug
+
 **Q: 电脑端frida和frida-tools安装成功了，但启动frida失败**
+
 A：frida和frida-tools版本要匹配，比如frida-tools 12.3.0 对应 frida 16.2.1,如果用frida-tools 12.3.0 对应 frida 16.5.7可能会导致启动失败
 <img width="1700" height="493" alt="image" src="https://github.com/user-attachments/assets/bff30af6-67cf-4841-8e9e-07accaeaae0b" />
 
